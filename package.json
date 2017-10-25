@@ -1,0 +1,32 @@
+{
+  "name": "preimg",
+  "version": "0.0.1",
+  "description": "A JavaScript Library for preload images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Graydalf/preimg.git"
+  },
+  "keywords": [
+    "preload",
+    "image"
+  ],
+  "author": "graydalf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Graydalf/preimg/issues"
+  },
+  "homepage": "https://github.com/Graydalf/preimg#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0"
+  }
+}
