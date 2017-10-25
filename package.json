@@ -1,6 +1,6 @@
 {
   "name": "preimg",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A JavaScript Library for preload images",
   "main": "index.js",
   "scripts": {
