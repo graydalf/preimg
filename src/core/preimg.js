@@ -27,15 +27,18 @@
       img = imgs[i] = new Image();
       img.src = arr[i];
 
+      img.addEventListener('error', function() {
+        imgloadpost();
+      });
+
+      img.addEventListener('load', function() {
+        imgloadpost();
+      });
+
+      img.src = arr[i];
+
       if (img.complete) {
         imgloadpost();
-      } else {
-        img.onload = function() {
-          imgloadpost();
-        };
-        img.onerror = function() {
-          imgloadpost();
-        };
       }
     }
 
