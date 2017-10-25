@@ -1,5 +1,7 @@
 # preimg
 
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/Graydalf/preimg/blob/master/LICENSE)
+
 A JavaScript Library for preload images.
 
 ## Install
