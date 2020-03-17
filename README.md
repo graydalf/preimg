@@ -17,9 +17,9 @@ npm install preimg
 Preload some images
 
 ```js
-var arr = ['/imgs/comment.png', '/imgs/blue.png'];
+var arr = ['/imgs/comment.png', '/imgs/blue.png']
 
 preimg(arr).done(function(imgs) {
   // imgs is Array, typeof HTML DOM Image
-});
+})
 ```
